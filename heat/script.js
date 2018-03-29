@@ -87,6 +87,8 @@ $( function() {
     // uncomment this if the key starts working or you get another key
     $.get("https://api.openweathermap.org/data/2.5/weather?q=" + zip + "&appid=1a72577e4d8839d7db17f72c983053b2", function(data) {
       updateTemp(data.main.temp);
+      console.log(zip);
+      console.log(data.main.temp);
     });
   });  
 });
