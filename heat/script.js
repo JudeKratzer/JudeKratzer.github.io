@@ -72,7 +72,7 @@ function updateTemp(newTemp) {
   console.log(bcolor)
   $('body').css('background', bcol);
 }
-});
+
 $( function() {
   $("#zip-button").button();
   $("#zip-button").click( function() {
